@@ -1,0 +1,33 @@
+{
+  "name": "google-actions-bargain-buddy",
+  "description": "Enable Google Assistant to tell you the daily deals from woot.com and meh.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "google home",
+    "google actions",
+    "google assistant",
+    "woot.com",
+    "meh.com",
+    "daily deal"
+  ],
+  "author": {
+    "name": "Nick Schwab",
+    "url": "https://nickschwab.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickschwab/google-actions-bargain-buddy"
+  },
+  "private": true,
+  "dependencies": {
+    "actions-on-google": "^1.1.1",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "https": "^1.0.0"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions",
+    "deploy": "firebase deploy --only functions"
+  }
+}
