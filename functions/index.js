@@ -13,10 +13,6 @@ const DEAL_ACTION = 'input.deal';
 const HELP_ACTION = 'input.help';
 const UNHANDLED_DEEP_LINK_ACTION = 'deeplink.unknown';
 
-// Entities/Firebase data keys
-const LOCATION_DATA = 'location';
-const NAME_DATA = 'name';
-
 const MEH_BASE_URL = "https://api.meh.com/1/current.json?apikey=";
 const MEH_API_KEY = process.env.MEH_API_KEY || functions.config().meh.key || "";
 
